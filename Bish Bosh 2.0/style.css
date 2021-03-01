@@ -1,0 +1,123 @@
+header > h2{
+
+ 
+ background-color: rgb(24, 23, 20);
+ /* color: azure; */
+ text-transform: uppercase;
+ /* text-shadow: 2px 2px 2px #cccccc; */
+ /* color: #444444; */
+ text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+ text-align: center;
+ font-size: 46px;
+ position: sticky;
+ font-family: verdana;
+ margin-top: 0;
+
+ color: #d0f8ff;
+ text-shadow: 0 0 5px #a5f1ff, 0 0 10px #a5f1ff, 0 0 20px #a5f1ff,
+   0 0 30px #a5f1ff, 0 0 40px #a5f1ff;
+     
+}
+#lab1
+{
+    padding-right: 120px;
+}
+#presentation-number{
+    color: blue;
+    
+     word-wrap: break-word;
+    
+}
+#lab3{
+
+padding-right: 30px;
+}
+#loop
+{
+
+    margin-left:0px;
+    border: solid #a5f1ff;
+}
+#first-division{
+margin-left: 1px;
+border: solid #a5f1ff;
+
+}
+#second-division{
+    border: solid #a5f1ff;
+}
+#main{
+
+    padding-bottom: 240px;
+}
+#start{
+    background-color:darkcyan;
+    font-size: 20px;
+    border-radius: 50%;
+    transition-duration: 0.4s;
+    border: 2px solid #4CAF50; /* Green */
+}
+#start:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+body{
+    margin:0;
+    overflow-x:hidden;
+    }
+    
+    .footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }

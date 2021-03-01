@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js'></script>
+   <!-- Icons -->
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
+    <link rel="stylesheet" href="style.css" >
+    <script   src="scriptto.js"></script>
+    <title>Exercise 9</title>
+</head>
+<body>
+    <div class="page-content page-container" id="page-content">
+        <div class="padding">
+            <div id="todo-list-container" class="row container d-flex justify-content-center">
+                <div id= "sequence0"class="col-md-8">
+                    <div class="card px-3">
+                        <div class="card-body">
+                            <h4 class="card-title">Awesome Todo list</h4>
+                            <div class="add-items d-flex"> <input type="text" class="form-control todo-list-input" placeholder="What do you need to do today?"> <button class="add btn btn-primary font-weight-bold todo-list-add-btn">Add</button> </div>
+                            <div class="list-wrapper">
+                                <ul class="d-flex flex-column-reverse todo-list">
+                                    
+                                    <li>
+                                        <div> 
+                                            <input id="select-all-button" type="button"  value="Select All"/> 
+                                            <!-- <input id="selectAll" type="checkbox"> SelectAll <i class="input-helper"></i> -->
+                                            <!-- <input type="button" button class="add btn btn-primary font-weight-bold " onclick='selects()' value="Select All"/>   -->
+                                            
+                                       </div> <i></i>
+                                       <div>
+                                       <input  id="deselect-all-button" type="button"  value="Deselect All"/>
+                                    </div> 
+
+                                    </li>
+                                    <li>
+                                        <div class="form-check"> <label class="form-check-label"> <input class="checkbox" name="chk"  type="checkbox"> For what reason would it be advisable. <i class="input-helper"></i></label> </div> <i class="remove mdi mdi-close-circle-outline"></i>
+                                    </li>
+                                    <li class="completed">
+                                        <div class="form-check"> <label class="form-check-label"> <input class="checkbox" name="chk"  type="checkbox" checked=""> For what reason would it be advisable for me to think. <i class="input-helper"></i></label> </div> <i class="remove mdi mdi-close-circle-outline"></i>
+                                    </li>
+                                    <li>
+                                        <div class="form-check"> <label class="form-check-label"> <input class="checkbox" name="chk" type="checkbox"> it be advisable for me to think about business content? <i class="input-helper"></i></label> </div> <i class="remove mdi mdi-close-circle-outline"></i>
+                                    </li>
+                                    <li>
+                                        <div class="form-check"> <label class="form-check-label"> <input class="checkbox" name="chk" type="checkbox"> Print Statements all <i class="input-helper"></i></label> </div> <i class="remove mdi mdi-close-circle-outline"></i>
+                                    </li>
+                                    <li class="completed">
+                                        <div class="form-check"> <label class="form-check-label"> <input class="checkbox" name="chk" type="checkbox" checked=""> Call Rampbo <i class="input-helper"></i></label> </div> <i class="remove mdi mdi-close-circle-outline"></i>
+                                    </li>
+                                    <li>
+                                        <div class="form-check"> <label class="form-check-label"> <input class="checkbox" name="chk"  type="checkbox"> Print bills <i class="input-helper"></i></label> </div> <i class="remove mdi mdi-close-circle-outline"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-4">
+                    <div class="card px-3">
+                        <div class="card-body">
+                            <h4 class="card-title">create a new list</h4>
+                            <div> 
+                            <input type="text" class="form-control todo-list-input" placeholder="Which color for the list's background?"> 
+                           <button id="add-new-list" class="btn btn-primary">Create a new list</button>
+                                
+                        </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
