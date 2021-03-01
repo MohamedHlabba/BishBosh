@@ -12,7 +12,7 @@ function myFunction2() {
 
           text += "Bisch-Bosch" + ", ";
 
-          //  document.write("Bisch-Bosch" + ", ");
+         
         } else if (i % division1 == 0) {
             text+="Bisch" + ", ";
 
@@ -20,11 +20,11 @@ function myFunction2() {
         } else if (i % division2 == 0) {
             text+="Bosch" + ", ";
 
-          //  document.write("Bosch" + ", ");
+          
         } else {
           text+=i + ", ";
 
-            //document.write(i + ", ");
+            
         }
 
     }
